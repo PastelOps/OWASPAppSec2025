@@ -1,0 +1,1 @@
+console.warn('\t[+] Backtrace:\n\t' + Thread.backtrace(this.context, Backtracer.ACCURATE).map(DebugSymbol.fromAddress).join('\n\t’));
